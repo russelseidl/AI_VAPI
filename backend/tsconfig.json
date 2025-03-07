@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    "incremental": true,                               /* Enable incremental builds for faster recompilation. */
+
+    /* Language and Environment */
+    "target": "es2020",                                /* Modern JavaScript target for the backend environment. */
+    "lib": ["ES2020"],                                 /* Include ES2020 features in the compilation. */
+    "module": "commonjs",                              /* Use CommonJS for Node.js compatibility. */
+    "rootDir": "./src",                                /* Set the root directory for input files. */
+    "moduleResolution": "node",                        /* Resolve modules like Node.js. */
+    "allowSyntheticDefaultImports": true,              /* Enable synthetic imports for default compatibility. */
+    "esModuleInterop": true,                           /* Emit additional JS for CommonJS interop. */
+    "resolveJsonModule": true,                         /* Allow importing JSON files. */
+    "forceConsistentCasingInFileNames": true,          /* Ensure consistent import/export casing. */
+    "strict": true,                                    /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                              /* Skip type checking all declaration files for faster builds. */
+
+    /* Type Checking */
+    "strictNullChecks": true,                          /* Check for nullable types explicitly. */
+    "noImplicitAny": true,                             /* Disallow implicit `any` types. */
+    "strictFunctionTypes": true,                       /* Ensure functions are type-compatible. */
+    "noImplicitThis": true,                            /* Disallow implicit `any` type for `this`. */
+    "useUnknownInCatchVariables": true,                /* Use `unknown` type for `catch` variables. */
+    "noUnusedLocals": true,                            /* Report errors on unused local variables. */
+    "noUnusedParameters": false,                        /* Report errors on unused function parameters. */
+    "noFallthroughCasesInSwitch": true,                /* Report errors for fallthrough cases in switch statements. */
+
+    /* Emit */
+    "outDir": "./dist",                                /* Output directory for compiled JavaScript files. */
+    "declaration": true,                               /* Generate `.d.ts` declaration files. */
+    "sourceMap": true,                                 /* Enable source maps for debugging. */
+
+    /* Completeness */
+    "alwaysStrict": true                               /* Always emit `"use strict"` in JavaScript files. */
+  },
+  "include": ["src/**/*"],                             /* Include all files in the `src` folder. */
+  "exclude": ["node_modules", "dist"]                 /* Exclude `node_modules` and the output directory. */
+}
